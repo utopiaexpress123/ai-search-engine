@@ -1,20 +1,20 @@
-import type { Metadata, Viewport } from 'next'
-import { Inter as FontSans } from 'next/font/google'
-import { AI } from './action'
-import './globals.css'
-import { cn } from '@/lib/utils'
-import { ThemeProvider } from '@/components/theme-provider'
-import Header from '@/components/header'
-import Footer from '@/components/footer'
+import type { Metadata, Viewport } from 'next';
+import { Inter as FontSans } from "next/font/google";
+import { AI } from './action';
+import './globals.css';
+import { cn } from '@/lib/utils';
+import { ThemeProvider } from '@/components/theme-provider';
+import Header from '@/components/header';
+import Footer from '@/components/footer';
 
-const fontSans = FontSans({
-  subsets: ['latin'],
-  variable: '--font-sans'
-})
+export const fontSans = FontSans({
+  subsets: ["latin"],
+  variable: "--font-sans",
+});
 
-const title = 'Morphic'
+const title = 'Utopia Web Research'
 const description =
-  'A fully open-source AI-powered answer engine with a generative UI.'
+  'AI-powered web research engine.'
 
 export const metadata: Metadata = {
   title,
