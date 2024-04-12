@@ -19,10 +19,6 @@ export const Header: React.FC = () => {
               className="object-cover"
             />
         </Link>
-        <a href="/">
-          <IconLogo className={cn('w-5 h-5')} />
-          <span className="sr-only">Utopia Express</span>
-        </a>
       </div>
       <ModeToggle />
     </header>
