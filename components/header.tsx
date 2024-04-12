@@ -6,6 +6,13 @@ import { ModeToggle } from './mode-toggle'
 import { IconLogo } from './ui/icons'
 import { cn } from '@/lib/utils'
 import logo from "/public/logo.png";
+import {
+  ClerkProvider,
+  SignedIn,
+  SignedOut,
+  SignInButton,
+  UserButton,
+} from "@clerk/nextjs";
 
 
 export const Header: React.FC = () => {
@@ -21,6 +28,14 @@ export const Header: React.FC = () => {
         </Link>
       </div>
       <ModeToggle />
+      <SignedIn>
+        {/* Mount the UserButton component */}
+        <UserButton />
+      </SignedIn>
+      <SignedOut>
+        {/* Signed out users get sign in button */}
+        <SignInButton/>
+      </SignedOut>
     </header>
   )
 }
