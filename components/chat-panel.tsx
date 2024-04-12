@@ -98,7 +98,7 @@ export function ChatPanel() {
             name="input"
             placeholder="Write here"
             value={input}
-            className="pl-4 pr-10 h-12 rounded-full bg-muted"
+            className="focus:ring-0 focus:outline-none focus:border-sky-500 focus:ring-sky-500 transition-all pl-4 pr-10 h-14 rounded-full bg-muted shadow-2xl shadow-slate-600/10 hover:shadow-lime-600/30 hover:shadow-xl"
             onChange={e => {
               setInput(e.target.value)
               setShowEmptyScreen(e.target.value.length === 0)
@@ -109,8 +109,8 @@ export function ChatPanel() {
           <Button
             type="submit"
             size={'icon'}
-            variant={'ghost'}
-            className="absolute right-2 top-1/2 transform -translate-y-1/2"
+            variant={'default'}
+            className="rounded-full absolute right-2 top-1/2 transform -translate-y-1/2"
             disabled={input.length === 0}
           >
             <ArrowRight size={20} />
@@ -120,7 +120,7 @@ export function ChatPanel() {
           submitMessage={message => {
             setInput(message)
           }}
-          className={cn(showEmptyScreen ? 'visible' : 'invisible')}
+          className={cn(showEmptyScreen ? 'visible' : 'visible')}
         />
       </form>
     </div>

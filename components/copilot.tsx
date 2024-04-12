@@ -112,7 +112,7 @@ export const Copilot: React.FC<CopilotProps> = ({ inquiry }: CopilotProps) => {
     )
   } else {
     return (
-      <Card className="p-4 rounded-lg w-full mx-auto">
+      <Card className="p-6 rounded-lg w-full mx-auto shadow-xl">
         <div className="flex items-center mb-4">
           <IconLogo
             className={cn('w-4 h-4 flex-shrink-0', { 'animate-spin': pending })}
@@ -170,7 +170,7 @@ export const Copilot: React.FC<CopilotProps> = ({ inquiry }: CopilotProps) => {
               <FastForward size={16} className="mr-1" />
               Skip
             </Button>
-            <Button type="submit" disabled={isButtonDisabled || pending}>
+            <Button type="submit" disabled={isButtonDisabled || pending} className="rounded-full">
               <ArrowRight size={16} className="mr-1" />
               Send
             </Button>
