@@ -7,6 +7,7 @@ import { IconLogo } from './ui/icons'
 import { cn } from '@/lib/utils'
 import logo from "/public/logo.png";
 
+
 export const Header: React.FC = () => {
   return (
     <header className="fixed w-full p-0 md:p-2 flex justify-between items-center z-10 backdrop-blur md:backdrop-blur-none bg-background/80 md:bg-transparent">
