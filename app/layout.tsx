@@ -5,7 +5,12 @@ import { cn } from '@/lib/utils';
 import { ThemeProvider } from '@/components/theme-provider';
 import Header from '@/components/header';
 import Footer from '@/components/footer';
+import { Inter as FontSans } from "next/font/google";
 
+const fontSans = FontSans({
+  subsets: ["latin"],
+  variable: "--font-sans",
+})
 
 const title = 'Utopia Web Research'
 const description =
@@ -40,7 +45,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body>
+      <body 
+              className={cn(
+                "scroll-smooth min-h-screen bg-background font-sans antialiased bg-gradient-to-tl from-fuchsia-50 to-slate-300",
+                fontSans.variable
+              )}
+      >
         <ThemeProvider
           attribute="class"
           defaultTheme="system"
