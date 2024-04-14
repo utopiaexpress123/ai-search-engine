@@ -1,8 +1,7 @@
-# Morphic
+# search.utopia.express
 
 An AI-powered answer engine with a generative UI.
 
-![capture](/public/capture-240404_blk.png)
 
 ## 🔍 Overview
 

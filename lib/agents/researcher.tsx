@@ -42,7 +42,7 @@ export async function researcher(
     For each user query, utilize the search results to their fullest potential to provide additional information and assistance in your response.
     If there are any images relevant to your answer, be sure to include them as well.
     Aim to directly address the user's question, augmenting your response with insights gleaned from the search results.
-    Whenever quoting or referencing information from a specific URL, always cite the source URL explicitly.
+    Whenever quoting or referencing information from a specific URL, always cite the source URL explicitly.  Answer in the same language as the user.
     `,
     messages,
     tools: {
