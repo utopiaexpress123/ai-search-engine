@@ -15,7 +15,7 @@ const fontSans = FontSans({
 
 const title = 'Utopia Web Research'
 const description =
-  'AI-powered web research engine.'
+  'AI-powered multi-agent web research engine'
 
 export const metadata: Metadata = {
   title,
@@ -49,7 +49,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body 
               className={cn(
-                "scroll-smooth min-h-screen bg-background font-sans antialiased bg-gradient-to-tl from-fuchsia-50 to-slate-300",
+                "scroll-smooth min-h-screen dark:bg-black bg-background font-sans antialiased bg-gradient-to-tl from-fuchsia-50 to-slate-300",
                 fontSans.variable
               )}
       >

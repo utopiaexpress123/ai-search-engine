@@ -2,7 +2,6 @@
 
 import React from 'react'
 import Link from 'next/link'
-import { ModeToggle } from './mode-toggle'
 import { IconLogo } from './ui/icons'
 import { cn } from '@/lib/utils'
 import logo from "/public/logo.png";
@@ -23,15 +22,16 @@ export const Header: React.FC = () => {
           <img width="93px" height="16px"
               src={logo.src}
               alt="Utopia Express"
-              className="object-cover"
+              className="object-cover scale-75"
             />
         </Link>
       </div>
-      <ModeToggle />
-      <SignedIn>
-        {/* Mount the UserButton component */}
-        <UserButton />
-      </SignedIn>
+      <div className="mr-4">
+        <SignedIn>
+          {/* Mount the UserButton component */}
+          <UserButton />
+        </SignedIn>
+      </div>
       <SignedOut>
         {/* Signed out users get sign in button */}
         <SignInButton/>
