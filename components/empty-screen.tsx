@@ -3,8 +3,8 @@ import { ArrowRight } from 'lucide-react'
 
 const exampleMessages = [
   {
-    heading: 'A top 3 legnépszerűbb AI-alapú ügyfélszolgálati asszisztens',
-    message: 'Melyik a top 3 legnépszerűbb AI-alapú ügyfélszolgálati asszisztens chatbot?'
+    heading: 'Top 3 weboldalba ágyazható ügyfélszolgálati chatbot kisvállalkozásoknak',
+    message: 'Melyik a top 3 legnépszerűbb weboldalba ágyazható ügyfélszolgálati chatbot szolgáltatás kisvállalkozások, webshopok számára?'
   },
   {
     heading: 'Melyik a top 5 legizgalmasabb AI eszköz KKV-k számára 2024-ben?',
