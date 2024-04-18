@@ -3,16 +3,12 @@ import { ArrowRight } from 'lucide-react'
 
 const exampleMessages = [
   {
-    heading: 'Top 3 weboldalba ágyazható ügyfélszolgálati chatbot kisvállalkozásoknak',
-    message: 'Melyik a top 3 legnépszerűbb weboldalba ágyazható ügyfélszolgálati chatbot szolgáltatás kisvállalkozások, webshopok számára?'
+    heading: 'Papp László Sportaréna, Nine Inch Nails koncert. Hány látogató várható? ',
+    message: 'A Papp László Sportarénában rendeznénk egy Nine Inch Nails koncertet. Hány látogató várható?'
   },
   {
-    heading: 'Melyik a top 5 legizgalmasabb AI eszköz KKV-k számára 2024-ben?',
-    message: 'Melyik a top 5 legizgalmasabb AI eszköz KKV-k számára 2024-ben?'
-  },
-  {
-    heading: 'Ajánlj 5 új AI eszközt webshop tulajdonosok számára',
-    message: 'Ajánlj 5 új AI eszközt webshop tulajdonosok számára'
+    heading: 'Budapest Kongresszusi Központ, Benson Boone koncert. Hány látogató várható?',
+    message: 'A Budapest Kongresszusi Központban megrendezésre kerülő Benson Boone koncerten hány látogató várható?'
   }
 ]
 export function EmptyScreen({

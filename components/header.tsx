@@ -17,14 +17,8 @@ import {
 export const Header: React.FC = () => {
   return (
     <header className="fixed w-full p-0 md:p-2 flex justify-between items-center z-10 backdrop-blur md:backdrop-blur-none bg-background/80 md:bg-transparent">
-      <div className="p-2">
-        <Link href="https://utopia.express">
-          <img width="93px" height="16px"
-              src={logo.src}
-              alt="Utopia Express"
-              className="object-cover scale-75"
-            />
-        </Link>
+      <div className="ml-2 p-2 font-bold">
+        Encore
       </div>
       <div className="mr-4">
         <SignedIn>
