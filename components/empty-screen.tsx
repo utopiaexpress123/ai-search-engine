@@ -3,12 +3,12 @@ import { ArrowRight } from 'lucide-react'
 
 const exampleMessages = [
   {
-    heading: 'Papp László Sportaréna, Nine Inch Nails koncert. Hány látogató várható? ',
-    message: 'A Papp László Sportarénában rendeznénk egy Nine Inch Nails koncertet. Hány látogató várható?'
+    heading: 'Melyik a három legnépszerűbb customer chatbot builder?',
+    message: 'Melyik a három legnépszerűbb customer chatbot builder?'
   },
   {
-    heading: 'Budapest Kongresszusi Központ, Benson Boone koncert. Hány látogató várható?',
-    message: 'A Budapest Kongresszusi Központban megrendezésre kerülő Benson Boone koncerten hány látogató várható?'
+    heading: 'Hasonlítsd össze a Chatbase-t, a Botpress-t',
+    message: 'Hasonlítsd össze a Chatbase-t, a Botpress-t'
   }
 ]
 export function EmptyScreen({
