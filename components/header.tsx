@@ -16,7 +16,7 @@ import {
 
 export const Header: React.FC = () => {
   return (
-    <header className="fixed w-full p-0 md:p-2 flex justify-between items-center z-10 backdrop-blur md:backdrop-blur-none bg-background/80 md:bg-transparent">
+    <header className="fixed w-full p-0 md:p-2 flex justify-between items-center z-10 backdrop-blur md:backdrop-blur-none bg-transparent md:bg-transparent">
       <div className="ml-2 p-2 font-bold">
         <UtopiaIcon/>
       </div>
